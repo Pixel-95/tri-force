@@ -6,11 +6,17 @@
   <title>Über TRI FORCE | Daniel Ott</title>
   <meta name="description" content="Lerne TRI FORCE und Daniel Ott kennen: Triathlon-Coaching aus dem Allgäu mit persönlichem, familiärem Ansatz.">
   <link rel="stylesheet" href="styles.css">
+  <script src="navigation.js" defer></script>
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="index.html">TRI FORCE</a>
-    <nav aria-label="Hauptnavigation">
+    <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Navigation öffnen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Hauptnavigation">
       <ul>
         <li><a href="index.html">Start</a></li>
         <li><a href="angebote.html">Angebote</a></li>
